@@ -1,0 +1,111 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    font-size: 24px;
+}
+
+.main-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.form-wrapper {
+    max-width: 500px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 35px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 35px;
+}
+
+.label-group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.submit-button {
+    padding: 20px 25px 20px 25px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    border-radius: 20px;
+    background-color: rgb(14, 2, 38);
+    color: white;
+    border: 2px solid rgb(14, 2, 38);
+    transform: translateY(0px);
+    transition: all 250ms ease-out;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: rgb(14, 2, 38);
+    transform: translateY(-5px);
+    transition: all 50ms ease-out;
+}
+
+.submit-button:active {
+    background-color: white;
+    border: 2px solid rgb(120, 129, 255);
+    color: rgb(120, 129, 255);
+    transform: translateY(2px);
+    transition: all 50ms ease-out;
+}
+
+
+
+.form-text {
+    padding: 20px 25px 20px 25px;
+    border-radius: 20px;
+    letter-spacing: 0.1px;
+    border: 1px solid grey;
+    color: grey;
+    transition: all 75ms ease-out;
+}
+
+
+
+.form-text:hover {
+    outline: 2px solid rgb(14, 2, 38);
+    outline-offset: -2px;
+    color: rgb(14, 2, 38);
+}
+
+
+.form-text:focus {
+    outline: 2px solid rgb(120, 129, 255);
+    outline-offset: -2px;
+    color: rgb(14, 2, 38);
+}
+
+.results-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+    width: 100%;
+    gap: 35px;
+    padding: 30px;
+    background-color: rgb(223, 255, 244);
+    color: rgb(0, 123, 142);
+    border-radius: 25px;
+}
+
+.error {
+    color: brown;
+    background-color: rgb(255, 193, 206);
+}
